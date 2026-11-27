@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container-fluid px-lg-5">
+            <a class="navbar-brand me-4" href="index.html">
+                <svg width="48" height="48" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="31" cy="31" r="30" fill="#00754A"/>
+                    <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="9.5" font-weight="bold" font-family="sans-serif">STARBUCKS</text>
+                </svg>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sbNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="sbNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-sb" href="#holiday-menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-sb" href="rewards.html">Rewards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-sb" href="#cranberry-bar">Gift Cards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-sb" href="#cranberry-bar">Starbucks® Shop</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-3 mt-3 mt-lg-0">
+                    <a href="#" class="text-decoration-none text-dark fw-semibold me-lg-3" style="font-size: 0.85rem;">
+                        <i class="bi bi-geo-alt-fill me-1 fs-6 align-middle"></i> Find a café
+                    </a>
+                    <div>
+                        <button class="btn btn-sb-outline me-2" data-bs-toggle="modal" data-bs-target="#signInModal">Sign in</button>
+                        <a href="rewards.html" class="btn btn-sb-dark">Join now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   
+    <main class="container-xxl px-0 px-md-3 mt-4">
+
+       
+        <section class="top-order-banner d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3 mb-4 text-center">
+            <h2 class="h5 fw-bold mb-0">It’s a great day for coffee</h2>
+            <a href="#holiday-menu" class="btn btn-sb-light-outline">Start an order</a>
+        </section>
+
+       
+        <section id="holiday-menu" class="promo-block promo-cream row g-0">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=950&q=80" alt="Holiday Starbucks Drinks" class="promo-img">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center p-4 p-lg-5">
+                <h2 class="fw-bold h3 mb-3">Holiday flavors are in town!</h2>
+                <p class="mb-4 px-lg-5" style="max-width: 460px; line-height: 1.65; font-size: 1.05rem;">
+                    Treat yourself to classic flavors like peppermint and caramel brulée or discover a new favorite like indulgent tiramisu.
+                </p>
+                <a href="rewards.html" class="btn btn-sb-green-outline">See the holiday menu</a>
+            </div>
+        </section>
+
+        
+        <section id="cranberry-bar" class="promo-block promo-green row g-0">
+            <div class="col-md-6 order-md-2">
+                <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=950&q=80" alt="The Cranberry Bliss Bar Tray" class="promo-img">
+            </div>
+            <div class="col-md-6 order-md-1 d-flex flex-column justify-content-center align-items-center text-center p-4 p-lg-5">
+                <h2 class="fw-bold h3 mb-3">The Cranberry Bliss® Bar Tray</h2>
+                <p class="mb-4 px-lg-5" style="max-width: 460px; line-height: 1.65; font-size: 1.05rem;">
+                    Share the joy of a Cranberry Bliss® Bar moment with a box of six delectable blondie bars topped with cream-cheese icing and tart dried cranberries.
+                </p>
+                <a href="rewards.html" class="btn btn-sb-light-outline">Order now</a>
+            </div>
+        </section>
+
+        
+        <section class="promo-block promo-cream row g-0">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=950&q=80" alt="Free coffee with Starbucks Rewards" class="promo-img">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center p-4 p-lg-5">
+                <h2 class="fw-bold h3 mb-3">Free coffee is just the beginning</h2>
+                <p class="mb-4 px-lg-5" style="max-width: 460px; line-height: 1.65; font-size: 1.05rem;">
+                    Join Starbucks® Rewards to earn Stars for free food and drinks, get free refills, and unlock exclusive member perks.
+                </p>
+                <a href="rewards.html" class="btn btn-sb-green-outline">Join now</a>
+            </div>
+        </section>
+
+    </main>
+
+    <hr class="my-0">
+
+    
+    <footer class="container-xxl px-4 px-lg-5 py-5">
+        <div class="row g-4 mb-4">
+            <div class="col-6 col-md-4 col-lg-2">
+                <h6 class="fw-bold mb-3">About Us</h6>
+                <a href="#" class="footer-link">Our Company</a>
+                <a href="#" class="footer-link">Our Coffee</a>
+                <a href="#" class="footer-link">Stories and News</a>
+                <a href="#" class="footer-link">Investor Relations</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <h6 class="fw-bold mb-3">Careers</h6>
+                <a href="#" class="footer-link">Culture and Values</a>
+                <a href="#" class="footer-link">Inclusion & Diversity</a>
+                <a href="#" class="footer-link">College Achievement</a>
+                <a href="#" class="footer-link">U.S. Careers</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <h6 class="fw-bold mb-3">Social Impact</h6>
+                <a href="#" class="footer-link">People</a>
+                <a href="#" class="footer-link">Planet</a>
+                <a href="#" class="footer-link">Environmental Reporting</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-3">For Business Partners</h6>
+                <a href="#" class="footer-link">Landlord Support Center</a>
+                <a href="#" class="footer-link">Suppliers</a>
+                <a href="#" class="footer-link">Corporate Gift Card Sales</a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-3">Order and Pick Up</h6>
+                <a href="#" class="footer-link">Order on the Web</a>
+                <a href="#" class="footer-link">Order on the App</a>
+                <a href="#" class="footer-link">Delivery</a>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="mb-4">
+            <a href="#" class="social-icon"><i class="bi bi-spotify"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-pinterest"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+        </div>
+
+        <div class="d-flex flex-wrap gap-3 mb-3" style="font-size: 0.9rem;">
+            <a href="#" class="text-dark text-decoration-none">Privacy Notice</a>
+            <span>|</span>
+            <a href="#" class="text-dark text-decoration-none">Terms of Use</a>
+            <span>|</span>
+            <a href="#" class="text-dark text-decoration-none">Cookie Preferences</a>
+        </div>
+        <p class="text-muted small">© 2026 Starbucks Coffee Company. All rights reserved.</p>
+    </footer>
+
+    
+    <div class="modal fade" id="signInModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">Sign in to Starbucks</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                            <label for="emailInput">* Username or email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="passInput" placeholder="Password">
+                            <label for="passInput">* Password</label>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-sb-green px-4 py-2">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
