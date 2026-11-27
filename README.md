@@ -6,64 +6,63 @@
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-educational-lightgrey?style=for-the-badge)
 
-A collection of coursework projects for an introductory Web Programming course. The projects cover semantic HTML structure, responsive layouts with Bootstrap, form handling, and a multi-page static website built with custom CSS.
+A collection of practical web development coursework, assignments, labs, UI experiments, and hands-on frontend practice for Web Programming I.
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Projects](#projects)
+- [Topics Covered](#topics-covered)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Learning Objectives](#learning-objectives)
 - [License](#license)
 
 ## Overview
 
-This repository holds the assignments and practice projects completed during Web Programming 1. Each project is a standalone static website that can be opened directly in a web browser without a build step or server.
+This repository documents hands-on frontend practice from an introductory Web Programming course. It serves as a working space for building, testing, and refining small interfaces, with an emphasis on writing clean markup, styling it deliberately, and making it work across screen sizes.
 
-## Repository Structure
+## Topics Covered
 
-```text
-web-programming-1/
-├── First assigment workshop clone.html
-├── Second Assignment workshop registration.html
-└── starbucksclone/
-    ├── index.html
-    ├── rewards.html
-    └── styles.css
+```mermaid
+mindmap
+  root((Web Programming I))
+    Structure
+      Semantic HTML5
+      Document outline
+    Presentation
+      Modern CSS
+      Layout and spacing
+    Responsiveness
+      Bootstrap grid
+      Mobile-first breakpoints
+    Interaction
+      Forms and inputs
+      Labels and validation
+    Components
+      Cards and banners
+      Reusable UI patterns
 ```
-
-## Projects
-
-| Project | File(s) | Description |
-|---------|---------|-------------|
-| Creative Workshop Schedule | `First assigment workshop clone.html` | A card-based schedule page using Bootstrap grid utilities and inline styling for a three-session workshop. |
-| Web Design Workshop Registration | `Second Assignment workshop registration.html` | A responsive two-column layout with an event details panel and a session registration form. |
-| Starbucks Clone | `starbucksclone/` | A multi-page recreation of a coffee brand website, with a home page, a rewards page, and a shared stylesheet. |
 
 ## Technologies
 
 ```mermaid
 flowchart LR
     A[HTML5 Markup] --> B[Bootstrap 5 Grid and Components]
-    A --> C[Custom CSS Styles]
-    B --> D[Responsive Web Pages]
+    A --> C[Modern CSS Styling]
+    B --> D[Responsive Interfaces]
     C --> D
 ```
 
 - HTML5 for document structure and semantic elements
-- CSS3 for custom styling and layout
-- Bootstrap 5.3.3 loaded from the jsDelivr CDN for responsive grids, cards, badges, and form controls
+- CSS3 for custom styling, layout, and theming
+- Bootstrap 5.3.3, loaded from a CDN, for responsive grids, components, and form controls
 
 ## Getting Started
 
 ### Prerequisites
 
 - A modern web browser such as Chrome, Firefox, Edge, or Safari
-- Git (optional, for cloning the repository)
-- An internet connection for loading the Bootstrap CDN stylesheet
+- Git, optional, for cloning the repository
+- An internet connection for loading CDN-hosted stylesheets
 
 ### Installation
 
@@ -72,40 +71,10 @@ git clone https://github.com/Bisrat-joseph/web-programming-1.git
 cd web-programming-1
 ```
 
-## Usage
-
-No installation or build process is required. Open any HTML file directly in the browser:
-
-- Double-click the file in your file explorer, or
-- Right-click the file and choose Open with your preferred browser.
-
-For the Starbucks clone, open `starbucksclone/index.html` first and navigate to `rewards.html` from there.
-
-For a live preview with automatic reload during development, a lightweight static server can be used:
+No build step or package installation is required. Open any HTML page directly in a browser, or serve the directory with a lightweight static server for live testing:
 
 ```bash
 python -m http.server 8000
-```
-
-Then visit `http://localhost:8000` in the browser.
-
-## Learning Objectives
-
-```mermaid
-mindmap
-  root((Web Programming 1))
-    Structure
-      Semantic HTML
-      Document outline
-    Presentation
-      CSS selectors
-      Layout and spacing
-    Responsiveness
-      Bootstrap grid
-      Mobile-first breakpoints
-    Interaction
-      Forms and inputs
-      Labels and validation
 ```
 
 ## License
